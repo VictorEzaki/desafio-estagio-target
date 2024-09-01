@@ -14,3 +14,20 @@ h1{
     padding: 1rem;
     border-radius: 1rem;
 }
+
+button{
+    background-color: green;
+    color: white;
+    border-style: none;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+}
+button:hover{
+    opacity: 95%;
+    cursor: pointer;
+}
+
+input{
+    border-radius: 0.2rem;
+    height: 1.6rem;
+}

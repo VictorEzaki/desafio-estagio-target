@@ -31,7 +31,7 @@ const faturamento = (data) =>{
     );
 
     total.textContent = `Total faturado:  ${sum}`;
-    dayMax.textContent = `Maior faturamento do mês ${max}`;
-    dayMin.textContent = `Menor faturamento do mês ${min}`;
-    avg.textContent = `Dias acima da média mensal de faturamento ${maxMedia.length}`;
+    dayMax.textContent = `Maior faturamento do mês: ${max}`;
+    dayMin.textContent = `Menor faturamento do mês: ${min}`;
+    avg.textContent = `Dias acima da média mensal de faturamento: ${maxMedia.length}`;
 }
