@@ -1,0 +1,16 @@
+body{
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+h1{
+    text-align: center;   
+}
+.questions{
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="./main.js" defer></script>
+    <link rel="stylesheet" href="./styles.css">
+    <title>Estágio Target Sistemas</title>
+</head>
+
+<body>
+    <h1>Desafio target sistemas</h1>
+    <div class="questions">
+        <h2>Questão 01</h2>
+        <p>
+            1) Observe o trecho de código abaixo: int INDICE = 13, SOMA = 0, K = 0;
+            Enquanto K < INDICE faça { K=K + 1; SOMA=SOMA + K; } Imprimir(SOMA); Ao final do processamento, qual será o
+                valor da variável SOMA? </p>
+
+                <h3>Solução:</h3>
+                <p id="resultSum"></p>
+    </div>
+
+    <div class="questions">
+        <h2>Questão 02</h2>
+        <p>
+            2) Dado a sequência de Fibonacci, onde se inicia por 0 e 1 e o próximo valor sempre será a soma dos 2
+            valores anteriores (exemplo: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34...), escreva um programa na linguagem que
+            desejar onde, informado um número, ele calcule a sequência de Fibonacci e retorne uma mensagem avisando se o
+            número informado pertence ou não a sequência.
+
+            IMPORTANTE: Esse número pode ser informado através de qualquer entrada de sua preferência ou pode ser
+            previamente definido no código;
+        </p>
+
+        <h3>Solução:</h3>
+        <label for="fibonacci">Digite um número: </label>
+        <input type="number" id="number">
+        <button id="calcular">Calcular</button>
+        <p id="resultFibo"></p>
+    </div>
+    <div class="questions">
+        <h2>Questão 03</h2>
+        <p>
+            3) Dado um vetor que guarda o valor de faturamento diário de uma distribuidora, faça um programa, na
+            linguagem que desejar, que calcule e retorne:
+            • O menor valor de faturamento ocorrido em um dia do mês;
+            • O maior valor de faturamento ocorrido em um dia do mês;
+            • Número de dias no mês em que o valor de faturamento diário foi superior à média mensal.
+
+            IMPORTANTE:
+            a) Usar o json ou xml disponível como fonte dos dados do faturamento mensal;
+            b) Podem existir dias sem faturamento, como nos finais de semana e feriados. Estes dias devem ser ignorados
+            no cálculo da média;
+        </p>
+
+        <h3>Solução: </h3>
+        <p id="total"></p>
+        <p id="day-max"></p>
+        <p id="day-min"></p>
+        <p id="avg"></p>
+    </div>
+    <div class="questions">
+        <h2>Questão 04</h2>
+        <p>4) Dado o valor de faturamento mensal de uma distribuidora, detalhado por estado:
+            • SP – R$67.836,43
+            • RJ – R$36.678,66
+            • MG – R$29.229,88
+            • ES – R$27.165,48
+            • Outros – R$19.849,53
+
+            Escreva um programa na linguagem que desejar onde calcule o percentual de representação que cada estado teve
+            dentro do valor total mensal da distribuidora.
+        </p>
+
+        <h3>Solução:</h3>
+        <p id="sp"></p>
+        <p id="rj"></p>
+        <p id="mg"></p>
+        <p id="es"></p>
+        <p id="outros"></p>
+    </div>
+    <div class="questions">
+        <h2>Questão 05</h2>
+        <p>
+            5) Escreva um programa que inverta os caracteres de um string.
+
+            IMPORTANTE:
+            a) Essa string pode ser informada através de qualquer entrada de sua preferência ou pode ser previamente
+            definida no código;
+            b) Evite usar funções prontas, como, por exemplo, reverse;
+        </p>
+
+        <h3>Solução</h3>
+        <label for="reverse">Digite uma palavra que deseja inverter</label>
+        <input type="text" id="reverse">
+        <button id="invert">Inverter</button>
+        <p id="result-reverse"></p>
+    </div>
+</body>
+
+</html>
